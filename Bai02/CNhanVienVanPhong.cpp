@@ -14,7 +14,7 @@ void CNhanVienVanPhong::Xuat()
 	CNhanVien::Xuat();
 	cout << "So ngay lam viec: " << SoNgayLam << endl;
 	cout << "Tien tro cap: " << TroCap << endl;
-	cout << "Tien luong: " << TinhLuong() << endl;
+	cout << "Tien luong: " << fixed << setprecision(2) << TinhLuong() << endl;
 
 }
 

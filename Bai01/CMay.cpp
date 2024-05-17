@@ -48,5 +48,4 @@ int CMay::DemChiTietDon()
 		dem += DanhSachChiTiet[i]->DemChiTietDon();
 	}
 	return dem;
-	return 0;
 }

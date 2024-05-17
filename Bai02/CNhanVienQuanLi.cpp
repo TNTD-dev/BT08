@@ -10,13 +10,15 @@ void CNhanVienQuanLi::Nhap()
 	cin >> Thuong;
 }
 
+
 void CNhanVienQuanLi::Xuat()
 {
 	CNhanVien::Xuat();
 	cout << "He so chuc vu: " << HeSo << endl;
 	cout << "Tien thuong: " << Thuong << endl;
-	cout << "Tien luong: " << TinhLuong() << endl;
+	cout << "Tien luong: " <<fixed<<setprecision(2)<< TinhLuong() << endl;
 }
+
 
 double CNhanVienQuanLi::TinhLuong()
 {
